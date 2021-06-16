@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/bookmarkFragment"
+            android:icon="@drawable/ic_baseline_bookmarks_24"
+            android:title="Bookmark" />
+
+        <item
+            android:id="@+id/musicFragment"
+            android:icon="@drawable/ic_baseline_library_music_24"
+            android:title="Music" />
+
+        <item
+            android:id="@+id/movieFragment"
+            android:icon="@drawable/ic_baseline_movie_24"
+            android:title="Movie" />
+
+        <item
+            android:id="@+id/gameFragment"
+            android:icon="@drawable/ic_baseline_gamepad_24"
+            android:title="Game" />
+
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/phoneFragment"
+            android:icon="@drawable/ic_baseline_photo_library_24"
+            android:title="Phone" />
+
+        <item
+            android:id="@+id/messageFragment"
+            android:icon="@drawable/ic_baseline_message_24"
+            android:title="Message" />
+
+
+    </group>
+
+</menu>

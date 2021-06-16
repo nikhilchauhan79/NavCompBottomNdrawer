@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".GalleryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+        android:id="@+id/text_view_gallery"
+        app:layout_constraintVertical_bias="0.4"
+        android:gravity="center_horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/to_message_fragment"
+        android:text="Gallery Fragment" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="to message fragment"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/to_message_fragment"
+        app:layout_constraintTop_toBottomOf="@id/text_view_gallery"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="to phone Fragment"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/to_phone_fragment"
+        app:layout_constraintTop_toBottomOf="@id/to_message_fragment"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="to music fragment"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/to_music_fragment"
+        app:layout_constraintTop_toBottomOf="@id/to_phone_fragment"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="to game fragment"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/to_game_fragment"
+        app:layout_constraintTop_toBottomOf="@id/to_music_fragment"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="to bookmark fragment"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/to_bookmark_fragment"
+        app:layout_constraintTop_toBottomOf="@id/to_game_fragment"/>
+
+<Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="to movie fragment"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/to_movie_fragment"
+        app:layout_constraintTop_toBottomOf="@id/to_bookmark_fragment"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
